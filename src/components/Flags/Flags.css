@@ -1,0 +1,62 @@
+/* Flags.css */
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap");
+
+.flags_container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.link {
+  text-decoration: none;
+}
+.flag_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 300px; /* Set a fixed width */
+  height: 350px; /* Set a fixed height */
+  margin: 20px; /* Add margin for spacing */
+  background-color: hsl(209, 23%, 22%);
+  border-radius: 5px;
+}
+
+.img_flag_container {
+  width: 100%;
+  height: 80%; /* Adjust the height as needed */
+  display: flex;
+  align-items: flex-start;
+  border-radius: 5px;
+}
+
+img {
+  width: 300px;
+  height: 200px;
+  border-radius: 5px 5px 0 0;
+}
+
+.country_data_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+  height: 50%;
+  h1 {
+    font-size: 16px;
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    font-family: "Nunito Sans", sans-serif;
+  }
+  p {
+    font-size: 14px;
+    color: hsl(0, 0%, 100%);
+    font-family: "Nunito Sans", sans-serif;
+
+    span {
+      color: hsl(0, 0%, 52%);
+      font-family: "Nunito Sans", sans-serif;
+    }
+  }
+}
